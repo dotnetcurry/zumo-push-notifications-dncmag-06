@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+  <Identity Name="58892SumitMaitra.ZumoFakeTweet" Publisher="CN=66E31B70-3C50-4C02-A993-2C9C7D304758" Version="1.0.0.0" />
+  <Properties>
+    <DisplayName>ZumoFakeTweet</DisplayName>
+    <PublisherDisplayName>iSmart Software Solutions Pvt. Ltd.</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.2.1</OSMinVersion>
+    <OSMaxVersionTested>6.2.1</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="ZumoFakeTweet.App">
+      <VisualElements DisplayName="ZumoFakeTweet" Logo="Assets\Logo.png" SmallLogo="Assets\SmallLogo.png" Description="ZumoFakeTweet" ForegroundText="light" BackgroundColor="#464646" ToastCapable="true">
+        <DefaultTile ShowName="allLogos" />
+        <SplashScreen Image="Assets\SplashScreen.png" />
+      </VisualElements>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+  </Capabilities>
+</Package>
